@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Ubuntu:ital,wght@0,300;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(247, 241, 227,1.0);
+  
+  
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  color:black;
+  text-align: center;
+  padding: 2rem;
+  background-color: antiquewhite;
+}
+
+h2{
+  font-size: 35px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.main{
+  height: 100vh;
+  background-color: pink;
+}
+
+.container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+
+
+  width: 100%;
+  margin: auto;
+  height: 50vh;
+
+}
+
+.hijo{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 100px;
+  
+  
+}
+
+.form{
+  display: block;
+
+}
+
+.input-task-creator{
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  border-bottom:  solid 3px rgba(111, 30, 81,1.0);
+  width: 300px;
+
+  display: block;
+}
+
+button{
+  font-size: 1rem;
+  padding: 0.5rem 3rem;
+  margin-top: 2rem;
+ 
+  border-radius: 5px;
+  border-color: rgba(111, 30, 81,1.0); 
+
+}
+
+
+button:hover{
+background-color: rgba(111, 30, 81,1.0);
+color: white;
+}
+
+.table{
+  width: 50%;
+  
+
+}
+
+.table thead{
+  font-size: 28px;
+  text-align: left;
+ 
+
+}
+
+th{
+  text-align: center;
+  border-bottom: 3px solid rgba(111, 30, 81,1.0);
+  margin-bottom: 1rem;
+
+}
+
+.table td{
+  text-align: center;
+}
+
+input .done{
+  padding-left: 2rem;
+}
+
+.controlVisibility{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2rem;
+  margin-right: 5rem;
+  
+}
+
+.controlVisibility label{
+  padding-left: 1rem;
+  
+}
